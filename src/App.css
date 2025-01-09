@@ -1,0 +1,117 @@
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  font-size: 18px;
+}
+
+.App {
+
+}
+
+.main {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+}
+
+/* Media Query para pantallas pequeñas */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .content {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .header img {
+        width: 80%;
+        max-width: 300px; /* Ajusta según sea necesario */
+    }
+}
+
+.mainText{
+  font-size: 3.4vw;
+  font-weight: bold;
+}
+
+.secondaryText{
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.content span {
+  color: blue;
+  text-decoration: underline;
+}
+
+.projects {
+  padding-top: 50px;
+  text-align: center
+}
+
+.project-gallery {
+ display: flex;
+  flex-wrap: wrap;
+  gap: 16px; 
+  
+  justify-content: center;
+}
+
+.project-item {
+  flex: 1 1 calc(50% - 16px);
+  box-sizing: border-box;
+}
+
+.project-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.contact {
+  display: flex-block;
+  text-align: center;
+  padding: 50px 0px;
+  }
+
+.contactInput {
+  outline: 1px solid #4169E1;
+  width: 50%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.privacy {
+  margin: 15px 0px;
+}
+
+button {
+  background: #4169E1;
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: 0px!important;
+  width: 120px;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+footer {
+  background: #4169E1;
+  color: #fff;
+  margin-top: 20px;
+  padding: 25px;
+  text-align: center;
+}
+
